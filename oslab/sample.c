@@ -5,7 +5,8 @@ NAME    : RAVEENDRA.CHANDAGANI
 */
 //SOURCE CODE
 #include<stdio.h>
-int main(){
-printf("HELLO WORLD");
-return 0;
+int main()
+{
+  printf("HELLO WORLD");
+  return 0;
 }
