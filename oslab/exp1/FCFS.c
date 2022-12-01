@@ -30,13 +30,13 @@
         tat[i]=bt[i]+wt[i];
         avwt+=wt[i];
         avtat+=tat[i];
-        printf("nP[%d]tt%dtt%dtt%d",i+1,bt[i],wt[i],tat[i]);
+        printf("\nP[%d]\t\t%d\t\t%d\t\t%d",i+1,bt[i],wt[i],tat[i]);
     }
  
     avwt/=i;
     avtat/=i;
-    printf("nnAverage Waiting Time:%d",avwt);
-    printf("nAverage Turnaround Time:%d",avtat);
+    printf("\n\nAverage Waiting Time:%d",avwt);
+    printf("\nAverage Turnaround Time:%d",avtat);
  
     return 0;
 }
